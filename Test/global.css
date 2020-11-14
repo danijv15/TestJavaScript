@@ -1,0 +1,53 @@
+body
+{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: rgb(51, 51, 51);
+}
+
+#mainTitle
+{
+    text-align: center;
+}
+
+#loadButton
+{
+    margin-top: 2%;
+    font-size: 100%;
+	background-color: #008CBA;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+}
+
+#loadButton:hover
+{
+    background-color: #007ba3;
+}
+
+#hideShowButtom
+{
+    margin-top: 2%;
+    font-size: 100%;
+	background-color: #008CBA;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+}
+
+#bar
+{
+    margin-top: 2%;
+    width: 0%;
+    height: 40px;
+    background-color: #007ba3;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+.input
+{
+    margin-top: 2%;
+}

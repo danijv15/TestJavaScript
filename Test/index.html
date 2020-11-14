@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.css"/>
+    <title>Test Daniel</title>
+</head>
+
+<body>
+    <h1 id="mainTitle">JavaScript Test Daniel</h1>
+
+    <h4>Instructions</h4>
+    <ol>
+        <li>Fill the Quantity field with a number</li>
+        <li>Fill the Goal field with a number</li>
+        <li>Click on the Load button</li>
+        <li>Enjoy the magic!</li>
+    </ol>
+
+    <input type="text" class="input" id="quantity" placeholder="Quantity" /><br />
+    <input type="text" class="input"  id="goal" placeholder="Goal" /><br />
+    <button type="button" id="loadButton" onclick="load()">Load</button><br />
+      
+    <div id="progress">
+        <div id="bar">0%</div>
+    </div>
+
+    <button  type="button" id="hideShowButton" onclick="hide_show()">Hide or Show</button>
+
+    <script src="progress_bar.js"></script>
+      
+</body>
+
+</html>
